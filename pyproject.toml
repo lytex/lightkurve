@@ -29,6 +29,7 @@ astropy = ">=5.0"
 scipy = { version = ">=1.7", python = ">=3.8,<3.11" }
 matplotlib = ">=3.1"
 astroquery = ">=0.3.10"
+oktopus = ">=0.1.2"
 beautifulsoup4 = ">=4.6.0"
 requests = ">=2.22.0"
 urllib3 = { version = ">=1.23", python = ">=3.8,<4.0" }  # necessary to make requests work on py310
@@ -36,6 +37,7 @@ tqdm = ">=4.25.0"
 pandas = ">=1.1.4"
 uncertainties = ">=3.1.4"
 patsy = ">=0.5.0"
+fbpca = ">=1.0"
 # bokeh v2.3.2+ requirement due to https://github.com/lightkurve/lightkurve/pull/1428
 bokeh = ">=2.3.2"
 memoization = { version = ">=0.3.1", python = ">=3.8,<4.0" }

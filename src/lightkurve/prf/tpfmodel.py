@@ -45,16 +45,7 @@ import numpy as np
 from tqdm import tqdm
 import warnings
 
-# from oktopus import Prior, GaussianPrior, UniformPrior, PoissonPosterior
-class Prior:
-    pass
-class GaussianPrior:
-    pass
-class UniformPrior:
-    pass
-class PoissonPosterior
-    pass
-
+from oktopus import Prior, GaussianPrior, UniformPrior, PoissonPosterior
 
 from .prfmodel import KeplerPRF
 from ..utils import plot_image
